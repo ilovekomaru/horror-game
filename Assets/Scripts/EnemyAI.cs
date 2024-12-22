@@ -18,12 +18,12 @@ public class Enemy : MonoBehaviour
     public double wanderInterval = 8;
 
     public Transform playerPosition;
-    public GameObject BoxCollider;
+    public GameObject PlayerScript;
 
     Transform playerLastPosition;
     Vector3 target;
     NavMeshAgent agent;
-    GameObject PlayerScript;
+    
 
     double currentAggroTime = 0;
     double currentWanderTime = 0;
